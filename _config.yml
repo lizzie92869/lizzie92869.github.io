@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Coding Tales 
 header-img: img/home-bg.png
 email: lizzie.sorin@hotmail.fr
 copyright_name: lizzie92869
 description: > # this means to ignore newlines until "baseurl:"
-  
+  By Lizzie
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  lizzie92869

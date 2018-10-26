@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails g syntax"
-date:       2018-10-19 02:24:07 +0000
+date:       2018-10-18 22:24:08 -0400
 permalink:  rails_g_syntax
 ---
 
@@ -33,7 +33,7 @@ Overview of what those command lines are generating for us:
 
 Details of what those command lines are generating for us: 
 
-*rails g scaffold: *
+*rails g scaffold:*
 *  **table **team_mates
 *  **model** TeamMate
 * TeamMates**Controller**

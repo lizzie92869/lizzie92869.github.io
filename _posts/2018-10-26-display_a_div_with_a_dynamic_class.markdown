@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Display a div with a dynamic class"
-date:       2018-10-26 17:15:09 +0000
+title:      "Displaying a div with a dynamic class"
+date:       2018-10-26 13:15:09 -0400
 permalink:  display_a_div_with_a_dynamic_class
 ---
 

@@ -13,7 +13,9 @@ I learned to use Ruby on Rails with the default settings. This means I learned t
 Quick definitions:
 
 **SQL**: Structured Query Language - this is the language used to access and manipulate the database 
+
 **SQLite3/MySQL/Postgres/Oracle**: relational database - this is the database itself (collection of data) + the database management system (method for accessing and manipulating the data) 
+
 **workbench/pgAdmin**:  Graphical User Interface (GUI) allowing to have a nice visual representation of the relational database (optional). Workbench is for MySQL and pgAdmin for Postgres.
 
 To learn about Postgres and MySQL I followed courses on Udemy and as good as they are I learned that you do not need those to work with Postgres and MySQL if you already know how SQL queries work. The training on those tools focus on the CRUD that we are writting in the SQL language to access and manipulate data in the database. For example doing: `SELECT * FROM users WHERE user_id=2;` So if you are already familliar with how to create, read, update and delete data in SQL, skip the courses. You can get a refresher here: https://www.w3schools.com/sql/. You can go through all the methods on the left menu.
@@ -28,6 +30,7 @@ or `mysql - -version` (to see which version you are running). If you don’t hav
 - Generate your new app with this: 
 `rails new ProjectName -d mysql` 
 This provides you with a MySQL database, adding for you the `gem ‘mysql2’, ‘>= 0.3.18’, ‘< 0.6.0’` in your gemfile. Now you can create your migration the same way are used to because ActiveRecord is going to convert to the right syntax and the right data types for MySQL. Nice, isn’t it?
+
 # Implementing a Postgres database from the beginning of the project
 - Make sure you have Postgres installed. 
 To see if you have it and know which version try the command line: 
@@ -38,6 +41,7 @@ or `postgres - -version` (to see which version you are running). If you don’t 
 `rails new ProjectName -d postgresql `
 This provide you with a MySQL database, adding for you the `gem ‘pg’, ‘>= 0.18’, ‘< 2.0’ `in your gemfile.
 Now you can create your migration the same way you were used to because ActiveRecords is going to convert to the right syntax and the right data types for MySQL.
+
 # Converting a SQLite database to a MySQL database (with no data in the db to save)
 - Remove the sqlite3 gem
 
@@ -89,6 +93,7 @@ if asked run:
 rake db:create
 rake db:migrate
 ```
+
 
 # Converting a SQLite database to a Postgres database (with no data in the db to save)
 
